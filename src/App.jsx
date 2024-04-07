@@ -1,10 +1,10 @@
+import Card from "./Card"
+
 function App() {
-
-
-  return (
-    <>
-
-    </>
+  return ( 
+    <main>
+        <Card />
+    </main>
   )
 }
 

@@ -1,11 +1,8 @@
-import CountButton from "./CountButton";
-
-function ButtonContainer({ setCount }) {
+function ButtonContainer({children}) {
   return (
     <div className="button-container">
-      <CountButton type="minus" setCount={setCount} />
-      <CountButton type="plus" setCount={setCount} />
-  </div>
+      {children}
+    </div>
   );
 }
 
